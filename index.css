@@ -4,12 +4,24 @@ justify-content: center;
 font-family: sans-serif;
 
 }
+
+.trapezoid{
+
+background-image: url("back.jpg");
+
+
+}
+
+
+
+
 .mission{
     margin-right:30px;
 text-align: center;
 border-width: 5px;
 border-radius: 15px;
-background-color: cadetblue;
+background-color: ;
+color: aliceblue;
 
 }
 
@@ -25,7 +37,9 @@ margin-right: 30px;
 text-align: center;
 border-width: 5px;
 border-radius: 10px;
-background-color: cadetblue;
+background-color:;
+color: aliceblue;
+font-size: 15px;
 
 
 }
@@ -43,7 +57,7 @@ background-color: cadetblue;
 width: 100%;
 border: solid;
 height: 70vh;
-background-image: url("back.jpg");
+background-color:  #252B42;;
 
 }
 
@@ -52,7 +66,7 @@ margin-top: 40px;
 display: flex;
 border: solid none;
 justify-content: center;
-font-size: 40px;color: blue;
+font-size: 40px;color: aliceblue;
 
 }
 .instruct{
@@ -95,7 +109,7 @@ background-color: blue;
 .work{
 display: flex;
 justify-content: center;
-padding-top: 100px;
+padding-top: 50px;
 
 
 }
@@ -112,6 +126,7 @@ margin-left: 10px;
 text-align: center;
 align-items: center;
 margin-top: 100px;
+
 
 }
 .tool{
@@ -178,4 +193,19 @@ height: 50vh;
 
 
 }
+
+.form{
+
+margin-top: 100px;
+color: slateblue;
+
+
+
+}
+
+
+
+
+
+
 
