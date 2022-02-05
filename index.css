@@ -68,3 +68,35 @@ margin-top: 50px;
 text-align: center;
 font-size: 20px;
 }
+.button{
+font-size: 20px;
+padding: 20 20 20 20;
+
+}
+.hover{
+
+background-color: blue;
+
+}
+
+.home-1{
+    border: solid;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.work{
+display: flex;
+justify-content: center;
+padding-top: 100px;
+
+
+}
+
+.home-2{
+
+margin-right: 20px;
+margin-left: 20px;
+
+
+}
