@@ -20,8 +20,8 @@ background-image: url("back.jpg");
 text-align: center;
 border-width: 5px;
 border-radius: 15px;
-color: aliceblue;
-
+padding-right: 150px;
+font-size: 30px;
 }
 
 h1{
@@ -55,7 +55,7 @@ font-size: 15px;
 
 width: 100%;
 border: solid;
-height: 70vh;
+height: 90vh;
 background-color:  #252B42;;
 
 }
@@ -81,7 +81,8 @@ margin-top: 50px;
 text-align: left;
 font-size: 20px;
 border: solid none;
-align-items: left;
+align-items: left 70%;
+right: 30%;
 }
 .button{
 font-size: 20px;
@@ -154,8 +155,10 @@ justify-content: center;
 border: solid ;
 border-radius: 20px;
 padding-top: 50px;
-justify-content: space-between;
+justify-content: space-around;
 padding: 30px 30px 30px 30px;
+height: 30vh;
+
 
 
 }
@@ -201,7 +204,14 @@ color: slateblue;
 }
 
 
+.total{
 
+justify-content: center;
+text-align: center;
+align-items: center;
+border: solid none;
+
+}
 
 
 
