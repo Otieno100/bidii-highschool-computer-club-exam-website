@@ -6,6 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+
 </head>
 <link rel="stylesheet" href="index.css">
 
@@ -58,7 +66,7 @@
         </div>
 
         <div class="test">
-End of year 2022 exam 
+            End of year 2022 exam
 
         </div>
 
@@ -89,85 +97,90 @@ End of year 2022 exam
             <div>
                 <h1>Test Quesions</h1>
 
-                <form action="/action_page.php">
-                    <p> (1) Please select the language that you have mastered well in programming:</p>
-                      <input type="radio" id="html" name="mastered_language" value="HTML">
+                <div id="question_1">
+                    <p>(1) Please select the language that you have mastered well in programming:</p>
+                      <input type="radio" id="html" name="question_1" value="A">
                       <label for="html">HTML</label><br>
-                      <input type="radio" id="css" name="mastered-language" value="CSS">
+
+                      <input type="radio" id="css" name="question_1" value="B">
                       <label for="css">CSS</label><br>
-                      <input type="radio" id="javascript" name="mastered_language" value="JavaScript">
+
+                      <input type="radio" id="javascript" name="question_1" value="C">
                       <label for="javascript">JavaScript</label><br>
-                    <input type="radio" id="javascript" name="mastered_language" value="JavaScript">
-                      <label for="javascript">python</label>
-            </div>
 
-            <div>
-
-                <form action="/action_page.php">
-                    <p> (2) which combinations provides the correct list of data types:</p>
-                      <input type="radio" id="html" name="mastered_language" value="HTML">
-                      <label for="html">strings,arrays,booleans</label><br>
-                      <input type="radio" id="css" name="mastered-language" value="CSS">
-                      <label for="css">operator, numbers, arrays</label><br>
-                      <input type="radio" id="javascript" name="mastered_language" value="JavaScript">
-                      <label for="javascript">strings,arrays,fuction</label><br>
-                    <input type="radio" id="javascript" name="mastered_language" value="JavaScript">
-                      <label for="javascript">numbers,booleans,strings</label>
-            </div>
-
-            <div>
+                      <input type="radio" id="python" name="question_1" value="D">
+                      <label for="python">Python</label><br>
 
 
-                <form action="/action_page.php">
+                </div>
+
+                <div id="question_2">
+                    <p> (2) Which combinations provides the correct list of data types:</p>
+                      <input type="radio" id="html2" name="question_2" value="A">
+                      <label for="html2">Strings,arrays,booleans</label><br>
+
+                      <input type="radio" id="css2" name="question_2" value="B">
+                      <label for="css2">Operator, numbers, arrays</label><br>
+
+                      <input type="radio" id="javascript2" name="question_2" value="C">
+                      <label for="javascript2">Strings,arrays,fuction</label><br>
+
+                      <input type="radio" id="python2" name="question_2" value="D">
+                      <label for="python2">Numbers,booleans,strings</label><br>
+                </div>
+
+                <div class="question_3">
                     <p>(3) when do we use "if statement"</p>
-                      <input type="radio" id="html" name="mastered_language" value="HTML">
-                      <label for="html">to check if the two statement look alike</label><br>
-                      <input type="radio" id="css" name="mastered-language" value="CSS">
-                      <label for="css">when dealing with array of strings</label><br>
-                      <input type="radio" id="javascript" name="mastered_language" value="JavaScript">
-                      <label for="javascript">none of the above</label><br>
-                    <input type="radio" id="javascript" name="mastered_language" value="JavaScript">
-                      <label for="javascript">i dont know</label>
-            </div>
+                      <input type="radio" id="html3" name="question_3" value="A">
+                      <label for="html3">to check if the two statement look alike</label><br>
 
-            <div>
+                      <input type="radio" id="css3" name="question_3" value="B">
+                      <label for="css3">when dealing with array of strings</label><br>
 
+                      <input type="radio" id="javascript3" name="question_3" value="C">
+                      <label for="javascript3">none of the above</label><br>
 
-                <form action="/action_page.php">
+                      <input type="radio" id="python3" name="question_3" value="D">
+                      <label for="python3">i don't know</label><br>
+                </div>
+
+                <div id="question_4">
                     <p> (4)let thisString="Awesome",find the first character in the above variable</p>
-                      <input type="radio" id="html" name="mastered_language" value="HTML">
-                      <label for="html">w</label><br>
-                      <input type="radio" id="css" name="mastered-language" value="CSS">
-                      <label for="css">A</label><br>
-                      <input type="radio" id="javascript" name="mastered_language" value="JavaScript">
-                      <label for="javascript">e</label><br>
-                    <input type="radio" id="javascript" name="mastered_language" value="JavaScript">
-                      <label for="javascript">o</label>
-            </div>
+                      <input type="radio" id="html4" name="question_4" value="A">
+                      <label for="html4">w</label><br>
+                      <input type="radio" id="css4" name="question_4" value="B">
+                      <label for="css4">A</label><br>
+                      <input type="radio" id="javascript4" name="question_4" value="C">
+                      <label for="javascript4">e</label><br>
+                      <input type="radio" id="python4" name="question_4" value="D">
+                      <label for="python4">o</label><br>
+                </div>
 
-
-            <div>
-
-
-                <form action="/action_page.php">
+                <div id="question_5">
                     <p> (5)let blue=true and let red= false; compare the two operators</p>
-                      <input type="radio" id="html" name="mastered_language" value="HTML">
-                      <label for="html">false</label><br>
-                      <input type="radio" id="css" name="mastered-language" value="CSS">
-                      <label for="css">true</label><br>
-                      <input type="radio" id="javascript" name="mastered_language" value="JavaScript">
-                      <label for="javascript">none</label><br>
-                    <input type="radio" id="javascript" name="mastered_language" value="JavaScript">
-                      <label for="javascript">both</label>
+                      <input type="radio" id="html5" name="question_5" value="A">
+                      <label for="html5">false</label><br>
+                      <input type="radio" id="css5" name="question_5" value="B">
+                      <label for="css5">true</label><br>
+                      <input type="radio" id="javascript5" name="question_5" value="C">
+                      <label for="javascript5">none</label><br>
+
+                      <input type="radio" id="python5" name="question_5" value="C">
+                      <label for="python5">both</label><br>
+
+                </div>
+
             </div>
 
-
-
-            <button class="button hover">Submitt</button>
+            <button onclick="submitAnswers()"
+                style="margin-top: 50px ;color: white; background-color: #38bdf8; padding: 10px  40px; border-radius: 8px; font-size: 16px; border: none;">Submit</button>
         </div>
 
 
-       
+        <div style="height: 200px; width: 100%; border: 1px solid red;">
+            <h1>Total Score</h1>
+            <p id="totalScore"></p>
+        </div>
 
 
 
