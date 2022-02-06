@@ -36,6 +36,9 @@
 * Materialize CSS
 * w3 school, javascript
 
+## figma design link
+## https://www.figma.com/file/lH7Qs8sKWH2MjTskn4YhSC/Untitled
+
 ## Licence
 
 MIT License
