@@ -39,6 +39,13 @@
 ## figma design link
 ## https://www.figma.com/file/lH7Qs8sKWH2MjTskn4YhSC/Untitled
 
+## link to the project in git hub
+# https://otieno100.github.io/bidii-highschool-computer-club-exam-website/
+
+Topics
+Resources
+
+
 ## Licence
 
 MIT License
