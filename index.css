@@ -152,12 +152,14 @@ justify-content: center;
 
 .prep{
 
-border: solid ;
+border: solid none;
 border-radius: 20px;
 padding-top: 50px;
 justify-content: space-around;
 padding: 30px 30px 30px 30px;
 height: 30vh;
+border-spacing: 20px;
+background-color: azure;
 
 
 
